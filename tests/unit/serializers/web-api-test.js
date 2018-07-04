@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import { A } from '@ember/array';
 import { moduleFor, test } from 'ember-qunit';
 
 moduleFor('serializer:web-api', 'Unit | Serializer | web api', {
@@ -87,7 +87,7 @@ test('it parses a basic hasMany relationship', function(assert) {
         id: 1,
         name: 'Luke Skywalker',
         isJedi: true,
-        droids: Ember.A([
+        droids: A([
           { id: 1, type: 'protocol', model: 'C3PO' },
           { id: 2, type: 'astromech', model: 'R2D2' }
         ])
