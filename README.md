@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Ember - Web API
+=======
+# my-addon
+>>>>>>> 0cc248c... message
 
 [![Ember Observer Score](http://emberobserver.com/badges/ember-web-api.svg)](http://emberobserver.com/addons/ember-web-api)
 [![npm version](https://badge.fury.io/js/ember-web-api.svg)](http://badge.fury.io/js/ember-web-api)
@@ -85,17 +89,21 @@ The Web API Adapter and Serializer both extend Ember Data's DS.RESTAdapter and D
 
 ## Installation
 
-* `git clone` this repository
+* `git clone <repository-url>` this repository
+* `cd my-addon`
 * `npm install`
-* `bower install`
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
+<<<<<<< HEAD
+=======
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
+>>>>>>> 0cc248c... message
 * `ember test`
 * `ember test --server`
 
@@ -103,4 +111,4 @@ The Web API Adapter and Serializer both extend Ember Data's DS.RESTAdapter and D
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
