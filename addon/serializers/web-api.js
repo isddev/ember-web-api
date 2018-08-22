@@ -1,5 +1,5 @@
 import { A } from '@ember/array';
-import { copy } from '@ember/object/internals';
+import {copy} from 'ember-copy';
 import DS from 'ember-data';
 import Inflector from 'ember-inflector'
 
