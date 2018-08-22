@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "codecov.io": "^0.1.6",
-    "ember-cli-babel": "^6.6.0",
+    "ember-cli-babel": "^6.6.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
